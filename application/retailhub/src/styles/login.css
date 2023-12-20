@@ -1,0 +1,84 @@
+.login-card-container {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  /* width: 100%;
+  height: 100%; */
+  padding: 30px;
+  /* Center vertically */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-textfield {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.login-btn-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-btn {
+  width: 200px;
+}
+
+#username,
+#password {
+  width: 270px;
+}
+
+.card-title {
+  font-family: "Audiowide", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  color: #1565c0;
+}
+
+.invalid-msg {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: red;
+  max-width: 300px;
+}
+
+.signup-txt {
+  margin-top: 25px;
+  text-align: center;
+  /* font-weight: 600; */
+  color: #5a5a5a;
+}
+
+.signup-open {
+  color: #65aaff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup-buttons {
+  float: right;
+  margin-right: 18px;
+  margin-top: 30px;
+}
+
+.signup-form-container {
+  width: 450px;
+  height: 370px;
+}
+
+.login-as-owner {
+  margin-left: -8px;
+  margin-top: 15px;
+  width: 100%;
+}

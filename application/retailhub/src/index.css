@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  background: #f0f0f9;
+  font-family: "Audiowide", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #afafaf;
+  border-radius: 2px;
+}
